@@ -1,0 +1,11 @@
+name: unmax
+channels:
+    - conda-forge
+dependencies:
+    - python=3.13.9
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas
+    - cvxpy
+    - ipykernel
