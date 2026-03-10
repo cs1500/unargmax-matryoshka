@@ -49,10 +49,11 @@ def unargm(W=None, cat=False):
         else:
             out = 1
         result.append(out)
+        print(f"finished {i}")
 
     if cat:
         print("give result")
     return result
 
-t = unargm()
-print(t)
+#t = unargm()
+#print(t)
