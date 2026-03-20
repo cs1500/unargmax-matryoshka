@@ -7,19 +7,9 @@ conda activate unmax
 ```
 
 ### pytorch
-Training of MRL resnets from https://github.com/RAIVNLab/MRL
-was done using the following environment, on CUDA 12.2:
-```
-conda env create -f torch.yml
-conda activate torch310_mrl
-```
-To fix the `CXXABI_1.3.15' not found` error, run the following in the conda
-environment:
-```
-conda install -c conda-forge libstdcxx-ng libgcc-ng
-export LD_LIBRARY_PATH="$CONDA_PREFIX/lib:$LD_LIBRARY_PATH"
-```
-The command used to train a downscaled imagenet with 200 classes from
+Please refer to the `setup.txt` file to setup the environment used for the 
+training of MRL resnets from https://github.com/RAIVNLab/MRL. The command used 
+to train a downscaled imagenet with 200 classes from
 https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet/data
 is done with the following:
 ```
