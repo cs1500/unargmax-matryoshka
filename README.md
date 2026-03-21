@@ -8,9 +8,10 @@ conda activate unmax
 
 ### pytorch
 Please refer to the `setup.txt` file to setup the environment used for the 
-training of MRL resnets from https://github.com/RAIVNLab/MRL. The command used 
-to train a downscaled imagenet with 200 classes from
-https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet/data
+training of MRL resnets from https://github.com/RAIVNLab/MRL. This worked for
+a Linux system running proprietary Nvidia drivers version 595.45.04, with CUDA
+version 13.2. The command used to train a downscaled imagenet with 200 classes 
+from https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet/data
 is done with the following:
 ```
 python train_imagenet.py \

@@ -45,7 +45,6 @@ conda create -n torch310_mrl \
   xorg-libxrender=0.9.12 xorg-libxshmfence=1.3.3 xorg-libxxf86vm=1.1.6 \
   xorg-xorgproto=2024.1 xz=5.8.2 zeromq=4.3.5 zlib=1.3.1 zstd=1.5.7
 conda activate torch310_mrl
-conda install -c conda-forge pkg-config libjpeg-turbo
 pip install \
     assertpy==1.1 braceexpand==0.1.7 contourpy==1.3.2 \
     cuda-bindings==12.9.4 cuda-pathfinder==1.4.0 \
@@ -82,3 +81,4 @@ pip install \
     torchvision==0.25.0 tqdm==4.67.3 triton==3.6.0 \
     ttach==0.0.3 tzdata==2025.3 webdataset==1.0.2 \
     git+https://github.com/modestyachts/ImageNetV2_pytorch
+conda install -c conda-forge libjpeg-turbo
